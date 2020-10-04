@@ -85,6 +85,10 @@ plugs:
     interface: content
     default-provider: kde-frameworks-5-core18
     target: $SNAP/data-dir/kf5
+  qt551:
+    interface: content
+    target: $SNAP/qt551
+    default-provider: qt551
 
 slots:
   dbus-gimp:
